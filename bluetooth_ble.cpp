@@ -8,7 +8,7 @@
 
 #define HEARTBEAT_PERIOD_MS 50
 #define APP_AD_FLAGS 0x06
-
+ 
 static btstack_timer_source_t heartbeat;
 static btstack_packet_callback_registration_t hci_event_callback_registration;
 
